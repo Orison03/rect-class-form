@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#sign-up{
+  font-size: 35px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: dodgerblue;
+  letter-spacing: 1px;
+}
+
+.label{
+  position: absolute;
+  left: 30px;
+  width: 60%;
+  top: 100px;
+  color: dodgerblue;
+  letter-spacing: 1px;
+}
+
+.label-email{
+  position: absolute;
+  left: 30px;
+  width: 60%;
+  top: 185px;
+  color: dodgerblue;
+  letter-spacing: 1px;
+}
+
+
+.label-password{
+  position: absolute;
+  left: 30px;
+  width: 60%;
+  top: 270px;
+  color: dodgerblue;
+  letter-spacing: 1px;
+}
+
+#container{
+  margin: auto;
+  margin-top: 9%;
+  width: 40%;
+  height: 70%;
+  border: 1px solid dodgerblue;;
+  padding-bottom: 25%;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 10px black;
+}
+
+.input{
+  position: absolute;
+  left: 30px;
+  width: 70%;
+  top: 130px;
+  height: 10%;
+  border-color: dodgerblue;
+  border-radius: 3.5px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.input:focus{
+  outline: none;
+  background-color: dodgerblue;
   color: white;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.input-email{
+  position: absolute;
+  left: 30px;
+  width: 70%;
+  top: 220px;
+  height: 10%;
+  margin-bottom: 30px;
+  border-color: dodgerblue;
+  border-radius: 3.5px;
+  font-size: 20px;
+  padding-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-email:focus{
+  outline: none;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+}
+
+.input-password{
+  position: absolute;
+  left: 30px;
+  width: 70%;
+  top: 300px;
+  height: 10%;
+  margin-bottom: 30px;
+  border-color: dodgerblue;
+  border-radius: 3.5px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.input-password:focus{
+  outline: none;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+}
+
+button{
+  position: absolute;
+  left: 39%;
+  top: 380px;
+  padding: 7px 25px;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid dodgerblue;
+    cursor: pointer;
+
+}
+
+button:hover{
+  color: dodgerblue;
+  background-color: white;
+  border: 1px solid dodgerblue;
+  cursor: pointer;
 }
